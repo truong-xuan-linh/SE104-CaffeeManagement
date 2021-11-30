@@ -1,0 +1,6 @@
+D:\ThucHanh\PhatTrienPhanMem\QuanLyQuanCafe\DAL_BLL\bin\Debug\DAL_BLL.dll.config
+D:\ThucHanh\PhatTrienPhanMem\QuanLyQuanCafe\DAL_BLL\bin\Debug\DAL_BLL.dll
+D:\ThucHanh\PhatTrienPhanMem\QuanLyQuanCafe\DAL_BLL\bin\Debug\DAL_BLL.pdb
+D:\ThucHanh\PhatTrienPhanMem\QuanLyQuanCafe\DAL_BLL\obj\Debug\DAL_BLL.dll
+D:\ThucHanh\PhatTrienPhanMem\QuanLyQuanCafe\DAL_BLL\obj\Debug\DAL_BLL.pdb
+D:\ThucHanh\PhatTrienPhanMem\QuanLyQuanCafe\DAL_BLL\obj\Debug\DAL_BLL.csproj.CoreCompileInputs.cache
