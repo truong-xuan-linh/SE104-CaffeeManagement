@@ -44,5 +44,10 @@ namespace ThietKeChucNang
         {
             lblChucVu.Text = userManagement.GetTenLoaiTaiKhoan(userName);
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

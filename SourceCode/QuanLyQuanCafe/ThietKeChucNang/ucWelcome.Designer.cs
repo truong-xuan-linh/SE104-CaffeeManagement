@@ -37,24 +37,25 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe Print", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Segoe Print", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(240, 206);
+            this.label1.Location = new System.Drawing.Point(58, 209);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(320, 84);
+            this.label1.Size = new System.Drawing.Size(557, 112);
             this.label1.TabIndex = 0;
-            this.label1.Text = "FOG COFFE";
+            this.label1.Text = "LV2TK COFFEE";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe Print", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Segoe Print", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(292, 290);
+            this.label2.Location = new System.Drawing.Point(169, 321);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(217, 61);
+            this.label2.Size = new System.Drawing.Size(298, 84);
             this.label2.TabIndex = 1;
             this.label2.Text = "WELCOME";
             // 

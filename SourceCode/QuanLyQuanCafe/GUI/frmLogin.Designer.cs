@@ -91,9 +91,9 @@
             this.lblName.Location = new System.Drawing.Point(56, 31);
             this.lblName.Name = "lblName";
             this.lblName.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblName.Size = new System.Drawing.Size(393, 80);
+            this.lblName.Size = new System.Drawing.Size(413, 80);
             this.lblName.TabIndex = 6;
-            this.lblName.Text = "FUCK COFFEE";
+            this.lblName.Text = "LV2TK COFFEE";
             this.lblName.Click += new System.EventHandler(this.lblName_Click);
             // 
             // btnLogin

@@ -17,3 +17,10 @@ C:\Users\84354\Desktop\Theothers\QuanLyQuanCafe-master\QuanLyQuanCafe\DAL_BLL\ob
 C:\Users\84354\Desktop\Theothers\QuanLyQuanCafe-master\QuanLyQuanCafe\DAL_BLL\obj\Release\DAL_BLL.dll
 C:\Users\84354\Desktop\Theothers\QuanLyQuanCafe-master\QuanLyQuanCafe\DAL_BLL\obj\Release\DAL_BLL.pdb
 C:\Users\84354\Desktop\Theothers\QuanLyQuanCafe-master\QuanLyQuanCafe\DAL_BLL\obj\Release\DAL_BLL.csproj.AssemblyReference.cache
+D:\Hoc_ky_1_nam_3\Nhập môn CNPM\SE104-CaffeeManagement\SourceCode\QuanLyQuanCafe\DAL_BLL\bin\Release\DAL_BLL.dll.config
+D:\Hoc_ky_1_nam_3\Nhập môn CNPM\SE104-CaffeeManagement\SourceCode\QuanLyQuanCafe\DAL_BLL\bin\Release\DAL_BLL.dll
+D:\Hoc_ky_1_nam_3\Nhập môn CNPM\SE104-CaffeeManagement\SourceCode\QuanLyQuanCafe\DAL_BLL\bin\Release\DAL_BLL.pdb
+D:\Hoc_ky_1_nam_3\Nhập môn CNPM\SE104-CaffeeManagement\SourceCode\QuanLyQuanCafe\DAL_BLL\obj\Release\DAL_BLL.csproj.AssemblyReference.cache
+D:\Hoc_ky_1_nam_3\Nhập môn CNPM\SE104-CaffeeManagement\SourceCode\QuanLyQuanCafe\DAL_BLL\obj\Release\DAL_BLL.csproj.CoreCompileInputs.cache
+D:\Hoc_ky_1_nam_3\Nhập môn CNPM\SE104-CaffeeManagement\SourceCode\QuanLyQuanCafe\DAL_BLL\obj\Release\DAL_BLL.dll
+D:\Hoc_ky_1_nam_3\Nhập môn CNPM\SE104-CaffeeManagement\SourceCode\QuanLyQuanCafe\DAL_BLL\obj\Release\DAL_BLL.pdb

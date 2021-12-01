@@ -44,6 +44,7 @@
             this.pnlLogo = new System.Windows.Forms.Panel();
             this.lblLogo = new System.Windows.Forms.Label();
             this.pnlMenu = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.pnlThanhTieuDe.SuspendLayout();
             this.pnlLogo.SuspendLayout();
             this.pnlMenu.SuspendLayout();
@@ -58,7 +59,7 @@
             this.btnDangXuat.ForeColor = System.Drawing.Color.White;
             this.btnDangXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnDangXuat.Image")));
             this.btnDangXuat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDangXuat.Location = new System.Drawing.Point(1063, 0);
+            this.btnDangXuat.Location = new System.Drawing.Point(1073, -3);
             this.btnDangXuat.Name = "btnDangXuat";
             this.btnDangXuat.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.btnDangXuat.Size = new System.Drawing.Size(192, 80);
@@ -79,10 +80,10 @@
             this.btnKhoNVL.ForeColor = System.Drawing.Color.White;
             this.btnKhoNVL.Image = ((System.Drawing.Image)(resources.GetObject("btnKhoNVL.Image")));
             this.btnKhoNVL.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnKhoNVL.Location = new System.Drawing.Point(563, 0);
+            this.btnKhoNVL.Location = new System.Drawing.Point(512, 0);
             this.btnKhoNVL.Name = "btnKhoNVL";
             this.btnKhoNVL.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnKhoNVL.Size = new System.Drawing.Size(193, 80);
+            this.btnKhoNVL.Size = new System.Drawing.Size(173, 80);
             this.btnKhoNVL.TabIndex = 5;
             this.btnKhoNVL.Tag = "";
             this.btnKhoNVL.Text = "   Kho hàng";
@@ -101,10 +102,10 @@
             this.btnThongKe.ForeColor = System.Drawing.Color.White;
             this.btnThongKe.Image = ((System.Drawing.Image)(resources.GetObject("btnThongKe.Image")));
             this.btnThongKe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThongKe.Location = new System.Drawing.Point(756, 0);
+            this.btnThongKe.Location = new System.Drawing.Point(685, 0);
             this.btnThongKe.Name = "btnThongKe";
             this.btnThongKe.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnThongKe.Size = new System.Drawing.Size(190, 80);
+            this.btnThongKe.Size = new System.Drawing.Size(171, 80);
             this.btnThongKe.TabIndex = 4;
             this.btnThongKe.Tag = "";
             this.btnThongKe.Text = "   Thống kê";
@@ -123,10 +124,10 @@
             this.btnQuanLy.ForeColor = System.Drawing.Color.White;
             this.btnQuanLy.Image = ((System.Drawing.Image)(resources.GetObject("btnQuanLy.Image")));
             this.btnQuanLy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuanLy.Location = new System.Drawing.Point(383, 0);
+            this.btnQuanLy.Location = new System.Drawing.Point(352, 0);
             this.btnQuanLy.Name = "btnQuanLy";
             this.btnQuanLy.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnQuanLy.Size = new System.Drawing.Size(180, 80);
+            this.btnQuanLy.Size = new System.Drawing.Size(160, 80);
             this.btnQuanLy.TabIndex = 3;
             this.btnQuanLy.Tag = "";
             this.btnQuanLy.Text = "   Quản lý";
@@ -145,10 +146,10 @@
             this.btnBanHang.ForeColor = System.Drawing.Color.White;
             this.btnBanHang.Image = ((System.Drawing.Image)(resources.GetObject("btnBanHang.Image")));
             this.btnBanHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBanHang.Location = new System.Drawing.Point(187, 0);
+            this.btnBanHang.Location = new System.Drawing.Point(181, 0);
             this.btnBanHang.Name = "btnBanHang";
             this.btnBanHang.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnBanHang.Size = new System.Drawing.Size(196, 80);
+            this.btnBanHang.Size = new System.Drawing.Size(171, 80);
             this.btnBanHang.TabIndex = 2;
             this.btnBanHang.Tag = "";
             this.btnBanHang.Text = "   Bán hàng";
@@ -170,7 +171,7 @@
             this.btnTrangChu.Location = new System.Drawing.Point(0, 0);
             this.btnTrangChu.Name = "btnTrangChu";
             this.btnTrangChu.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnTrangChu.Size = new System.Drawing.Size(187, 80);
+            this.btnTrangChu.Size = new System.Drawing.Size(181, 80);
             this.btnTrangChu.TabIndex = 1;
             this.btnTrangChu.Tag = "";
             this.btnTrangChu.Text = "   Tổng quan";
@@ -182,6 +183,7 @@
             // pnlThanhTieuDe
             // 
             this.pnlThanhTieuDe.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.pnlThanhTieuDe.Controls.Add(this.button1);
             this.pnlThanhTieuDe.Controls.Add(this.btnThongKe);
             this.pnlThanhTieuDe.Controls.Add(this.btnKhoNVL);
             this.pnlThanhTieuDe.Controls.Add(this.btnQuanLy);
@@ -294,6 +296,28 @@
             this.pnlMenu.Size = new System.Drawing.Size(1366, 768);
             this.pnlMenu.TabIndex = 0;
             // 
+            // button1
+            // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = global::GUI.Properties.Resources.outline_settings_suggest_white_24dp;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(856, 0);
+            this.button1.Name = "button1";
+            this.button1.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.button1.Size = new System.Drawing.Size(164, 80);
+            this.button1.TabIndex = 8;
+            this.button1.Tag = "";
+            this.button1.Text = "   Cài Đặt";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmMainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -335,5 +359,6 @@
         private System.Windows.Forms.Panel pnlLogo;
         private System.Windows.Forms.Label lblLogo;
         private System.Windows.Forms.Panel pnlMenu;
+        private System.Windows.Forms.Button button1;
     }
 }

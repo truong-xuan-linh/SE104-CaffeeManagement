@@ -204,5 +204,14 @@ namespace GUI
             this.Close();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender);
+            pnlMain.Controls.Clear();
+            ucCaiDat ucCaiDatCF = new ucCaiDat();
+            ucCaiDatCF.Dock = DockStyle.Fill;
+            pnlMain.Controls.Add(ucCaiDatCF);
+            //ucCaiDatCF.BringToFront();
+        }
     }
 }

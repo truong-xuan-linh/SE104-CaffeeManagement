@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucQuanLyCongThuc));
             this.pnlQuanLyCongThuc = new System.Windows.Forms.Panel();
             this.grcDoUong = new DevExpress.XtraGrid.GridControl();
             this.grvDoUong = new DevExpress.XtraGrid.Views.Grid.GridView();
@@ -253,12 +252,12 @@
             // btnXoa
             // 
             this.btnXoa.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnXoa.BackColor = System.Drawing.Color.DarkRed;
+            this.btnXoa.BackColor = System.Drawing.Color.Transparent;
             this.btnXoa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnXoa.FlatAppearance.BorderSize = 0;
             this.btnXoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoa.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.Image")));
+            this.btnXoa.Image = global::ThietKeChucNang.Properties.Resources.outline_delete_black_24dp;
             this.btnXoa.Location = new System.Drawing.Point(237, 113);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(100, 50);
@@ -270,12 +269,12 @@
             // btnThem
             // 
             this.btnThem.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnThem.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnThem.BackColor = System.Drawing.Color.Transparent;
             this.btnThem.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnThem.FlatAppearance.BorderSize = 0;
             this.btnThem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThem.Image = ((System.Drawing.Image)(resources.GetObject("btnThem.Image")));
+            this.btnThem.Image = global::ThietKeChucNang.Properties.Resources.outline_add_circle_outline_black_24dp;
             this.btnThem.Location = new System.Drawing.Point(131, 113);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(100, 50);

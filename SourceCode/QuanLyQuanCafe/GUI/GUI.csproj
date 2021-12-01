@@ -115,6 +115,9 @@
   <ItemGroup>
     <None Include="Resources\btnDangXuat.Image.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_settings_suggest_white_24dp.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
