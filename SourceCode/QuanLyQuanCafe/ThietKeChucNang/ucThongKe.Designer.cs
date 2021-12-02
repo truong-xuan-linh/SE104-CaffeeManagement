@@ -28,11 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucThongKe));
             this.fpnlDanhMucQuanLy = new System.Windows.Forms.FlowLayoutPanel();
+            this.pnlThongKe = new System.Windows.Forms.Panel();
             this.btnTopPick = new System.Windows.Forms.Button();
             this.btnDoanhThu = new System.Windows.Forms.Button();
-            this.pnlThongKe = new System.Windows.Forms.Panel();
             this.fpnlDanhMucQuanLy.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,6 +46,14 @@
             this.fpnlDanhMucQuanLy.Size = new System.Drawing.Size(1130, 80);
             this.fpnlDanhMucQuanLy.TabIndex = 1;
             // 
+            // pnlThongKe
+            // 
+            this.pnlThongKe.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlThongKe.Location = new System.Drawing.Point(0, 80);
+            this.pnlThongKe.Name = "pnlThongKe";
+            this.pnlThongKe.Size = new System.Drawing.Size(1130, 569);
+            this.pnlThongKe.TabIndex = 2;
+            // 
             // btnTopPick
             // 
             this.btnTopPick.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(87)))), ((int)(((byte)(34)))));
@@ -55,7 +62,7 @@
             this.btnTopPick.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTopPick.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTopPick.ForeColor = System.Drawing.Color.White;
-            this.btnTopPick.Image = ((System.Drawing.Image)(resources.GetObject("btnTopPick.Image")));
+            this.btnTopPick.Image = global::ThietKeChucNang.Properties.Resources.outline_bar_chart_white_24dp;
             this.btnTopPick.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTopPick.Location = new System.Drawing.Point(3, 3);
             this.btnTopPick.Name = "btnTopPick";
@@ -75,7 +82,7 @@
             this.btnDoanhThu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDoanhThu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDoanhThu.ForeColor = System.Drawing.Color.White;
-            this.btnDoanhThu.Image = ((System.Drawing.Image)(resources.GetObject("btnDoanhThu.Image")));
+            this.btnDoanhThu.Image = global::ThietKeChucNang.Properties.Resources.outline_show_chart_white_24dp;
             this.btnDoanhThu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDoanhThu.Location = new System.Drawing.Point(159, 3);
             this.btnDoanhThu.Name = "btnDoanhThu";
@@ -86,14 +93,6 @@
             this.btnDoanhThu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnDoanhThu.UseVisualStyleBackColor = false;
             this.btnDoanhThu.Click += new System.EventHandler(this.btnDoanhThu_Click);
-            // 
-            // pnlThongKe
-            // 
-            this.pnlThongKe.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlThongKe.Location = new System.Drawing.Point(0, 80);
-            this.pnlThongKe.Name = "pnlThongKe";
-            this.pnlThongKe.Size = new System.Drawing.Size(1130, 569);
-            this.pnlThongKe.TabIndex = 2;
             // 
             // ucThongKe
             // 

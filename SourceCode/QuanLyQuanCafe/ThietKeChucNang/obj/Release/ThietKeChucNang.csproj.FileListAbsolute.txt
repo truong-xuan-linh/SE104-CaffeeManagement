@@ -605,4 +605,3 @@ D:\Hoc_ky_1_nam_3\Nhập môn CNPM\SE104-CaffeeManagement\SourceCode\QuanLyQuanC
 D:\Hoc_ky_1_nam_3\Nhập môn CNPM\SE104-CaffeeManagement\SourceCode\QuanLyQuanCafe\ThietKeChucNang\obj\Release\ThietKeChucNang.csproj.CopyComplete
 D:\Hoc_ky_1_nam_3\Nhập môn CNPM\SE104-CaffeeManagement\SourceCode\QuanLyQuanCafe\ThietKeChucNang\obj\Release\ThietKeChucNang.dll
 D:\Hoc_ky_1_nam_3\Nhập môn CNPM\SE104-CaffeeManagement\SourceCode\QuanLyQuanCafe\ThietKeChucNang\obj\Release\ThietKeChucNang.pdb
-D:\Hoc_ky_1_nam_3\Nhập môn CNPM\SE104-CaffeeManagement\SourceCode\QuanLyQuanCafe\ThietKeChucNang\obj\Release\ThietKeChucNang.csproj.AssemblyReference.cache

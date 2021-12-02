@@ -436,7 +436,7 @@
             // picLogo
             // 
             this.picLogo.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.picLogo.Image = ((System.Drawing.Image)(resources.GetObject("picLogo.Image")));
+            this.picLogo.Image = global::ThietKeChucNang.Properties.Resources.Logo;
             this.picLogo.Location = new System.Drawing.Point(73, 3);
             this.picLogo.Name = "picLogo";
             this.picLogo.Size = new System.Drawing.Size(79, 76);

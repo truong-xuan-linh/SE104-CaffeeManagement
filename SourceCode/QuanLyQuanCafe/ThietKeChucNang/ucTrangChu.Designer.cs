@@ -60,7 +60,7 @@
             this.lblTenNhanVien.BackColor = System.Drawing.Color.Transparent;
             this.lblTenNhanVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTenNhanVien.ForeColor = System.Drawing.Color.White;
-            this.lblTenNhanVien.Location = new System.Drawing.Point(97, 353);
+            this.lblTenNhanVien.Location = new System.Drawing.Point(97, 326);
             this.lblTenNhanVien.Name = "lblTenNhanVien";
             this.lblTenNhanVien.Size = new System.Drawing.Size(192, 33);
             this.lblTenNhanVien.TabIndex = 7;
@@ -108,7 +108,7 @@
             this.lblChucVu.BackColor = System.Drawing.Color.Transparent;
             this.lblChucVu.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChucVu.ForeColor = System.Drawing.Color.White;
-            this.lblChucVu.Location = new System.Drawing.Point(96, 306);
+            this.lblChucVu.Location = new System.Drawing.Point(96, 279);
             this.lblChucVu.Name = "lblChucVu";
             this.lblChucVu.Size = new System.Drawing.Size(124, 33);
             this.lblChucVu.TabIndex = 2;

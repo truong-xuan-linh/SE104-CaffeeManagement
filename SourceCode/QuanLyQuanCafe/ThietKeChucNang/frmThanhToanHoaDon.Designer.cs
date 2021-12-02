@@ -134,11 +134,11 @@
             this.lblLogo.AutoSize = true;
             this.lblLogo.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLogo.ForeColor = System.Drawing.Color.Black;
-            this.lblLogo.Location = new System.Drawing.Point(151, 53);
+            this.lblLogo.Location = new System.Drawing.Point(135, 40);
             this.lblLogo.Name = "lblLogo";
-            this.lblLogo.Size = new System.Drawing.Size(142, 38);
+            this.lblLogo.Size = new System.Drawing.Size(188, 38);
             this.lblLogo.TabIndex = 16;
-            this.lblLogo.Text = "Fog Coffee";
+            this.lblLogo.Text = "LV2TK Coffee";
             // 
             // label2
             // 
@@ -147,9 +147,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(107, 91);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(238, 16);
+            this.label2.Size = new System.Drawing.Size(250, 16);
             this.label2.TabIndex = 17;
-            this.label2.Text = "34 Đặng Văn Bi, P.Bình Thọ, Q.Thủ Đức";
+            this.label2.Text = "UIT, Linh Trung, Thủ Đúc, Tp Hồ Chí Minh";
             // 
             // label4
             // 
@@ -160,7 +160,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(78, 16);
             this.label4.TabIndex = 18;
-            this.label4.Text = "0979510945";
+            this.label4.Text = "0354692885";
             // 
             // label6
             // 
