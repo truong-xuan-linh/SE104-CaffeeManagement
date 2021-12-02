@@ -36,12 +36,12 @@
             this.btnQLCongThuc = new System.Windows.Forms.Button();
             this.btnQLHoaDon = new System.Windows.Forms.Button();
             this.btnQLKhachHang = new System.Windows.Forms.Button();
+            this.ucQuanLyNhanVienCF = new ThietKeChucNang.ucQuanLyNhanVien();
             this.ucQuanLyBanCF = new ThietKeChucNang.ucQuanLyBan();
             this.ucQuanLyDoUongCF = new ThietKeChucNang.ucQuanLyDoUong();
             this.ucQuanLyKhachHangCF = new ThietKeChucNang.ucQuanLyKhachHang();
             this.ucQuanLyHoaDonCF = new ThietKeChucNang.ucQuanLyHoaDon();
             this.ucQuanLyCongThucCF = new ThietKeChucNang.ucQuanLyCongThuc();
-            this.ucQuanLyNhanVienCF = new ThietKeChucNang.ucQuanLyNhanVien();
             this.fpnlDanhMucQuanLy.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,7 +67,7 @@
             this.btnQLNhanVien.FlatAppearance.BorderSize = 0;
             this.btnQLNhanVien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQLNhanVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQLNhanVien.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnQLNhanVien.ForeColor = System.Drawing.Color.White;
             this.btnQLNhanVien.Image = ((System.Drawing.Image)(resources.GetObject("btnQLNhanVien.Image")));
             this.btnQLNhanVien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnQLNhanVien.Location = new System.Drawing.Point(3, 3);
@@ -87,7 +87,7 @@
             this.btnQLBan.FlatAppearance.BorderSize = 0;
             this.btnQLBan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQLBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQLBan.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnQLBan.ForeColor = System.Drawing.Color.White;
             this.btnQLBan.Image = ((System.Drawing.Image)(resources.GetObject("btnQLBan.Image")));
             this.btnQLBan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnQLBan.Location = new System.Drawing.Point(173, 3);
@@ -107,7 +107,7 @@
             this.btnQLDoUong.FlatAppearance.BorderSize = 0;
             this.btnQLDoUong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQLDoUong.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQLDoUong.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnQLDoUong.ForeColor = System.Drawing.Color.White;
             this.btnQLDoUong.Image = ((System.Drawing.Image)(resources.GetObject("btnQLDoUong.Image")));
             this.btnQLDoUong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnQLDoUong.Location = new System.Drawing.Point(343, 3);
@@ -127,7 +127,7 @@
             this.btnQLCongThuc.FlatAppearance.BorderSize = 0;
             this.btnQLCongThuc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQLCongThuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQLCongThuc.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnQLCongThuc.ForeColor = System.Drawing.Color.White;
             this.btnQLCongThuc.Image = ((System.Drawing.Image)(resources.GetObject("btnQLCongThuc.Image")));
             this.btnQLCongThuc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnQLCongThuc.Location = new System.Drawing.Point(513, 3);
@@ -147,7 +147,7 @@
             this.btnQLHoaDon.FlatAppearance.BorderSize = 0;
             this.btnQLHoaDon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQLHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQLHoaDon.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnQLHoaDon.ForeColor = System.Drawing.Color.White;
             this.btnQLHoaDon.Image = ((System.Drawing.Image)(resources.GetObject("btnQLHoaDon.Image")));
             this.btnQLHoaDon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnQLHoaDon.Location = new System.Drawing.Point(683, 3);
@@ -167,7 +167,7 @@
             this.btnQLKhachHang.FlatAppearance.BorderSize = 0;
             this.btnQLKhachHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQLKhachHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQLKhachHang.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnQLKhachHang.ForeColor = System.Drawing.Color.White;
             this.btnQLKhachHang.Image = ((System.Drawing.Image)(resources.GetObject("btnQLKhachHang.Image")));
             this.btnQLKhachHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnQLKhachHang.Location = new System.Drawing.Point(853, 3);
@@ -179,6 +179,15 @@
             this.btnQLKhachHang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnQLKhachHang.UseVisualStyleBackColor = false;
             this.btnQLKhachHang.Click += new System.EventHandler(this.btnQLKhachHang_Click);
+            // 
+            // ucQuanLyNhanVienCF
+            // 
+            this.ucQuanLyNhanVienCF.BackColor = System.Drawing.SystemColors.Control;
+            this.ucQuanLyNhanVienCF.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucQuanLyNhanVienCF.Location = new System.Drawing.Point(0, 80);
+            this.ucQuanLyNhanVienCF.Name = "ucQuanLyNhanVienCF";
+            this.ucQuanLyNhanVienCF.Size = new System.Drawing.Size(1130, 569);
+            this.ucQuanLyNhanVienCF.TabIndex = 7;
             // 
             // ucQuanLyBanCF
             // 
@@ -219,15 +228,6 @@
             this.ucQuanLyCongThucCF.Name = "ucQuanLyCongThucCF";
             this.ucQuanLyCongThucCF.Size = new System.Drawing.Size(1130, 649);
             this.ucQuanLyCongThucCF.TabIndex = 6;
-            // 
-            // ucQuanLyNhanVienCF
-            // 
-            this.ucQuanLyNhanVienCF.BackColor = System.Drawing.SystemColors.Control;
-            this.ucQuanLyNhanVienCF.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucQuanLyNhanVienCF.Location = new System.Drawing.Point(0, 80);
-            this.ucQuanLyNhanVienCF.Name = "ucQuanLyNhanVienCF";
-            this.ucQuanLyNhanVienCF.Size = new System.Drawing.Size(1130, 569);
-            this.ucQuanLyNhanVienCF.TabIndex = 7;
             // 
             // ucQuanLy
             // 

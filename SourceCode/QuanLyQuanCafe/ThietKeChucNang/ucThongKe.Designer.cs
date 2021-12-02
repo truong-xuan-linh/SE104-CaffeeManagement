@@ -53,8 +53,8 @@
             this.btnTopPick.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTopPick.FlatAppearance.BorderSize = 0;
             this.btnTopPick.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTopPick.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTopPick.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnTopPick.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTopPick.ForeColor = System.Drawing.Color.White;
             this.btnTopPick.Image = ((System.Drawing.Image)(resources.GetObject("btnTopPick.Image")));
             this.btnTopPick.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTopPick.Location = new System.Drawing.Point(3, 3);
@@ -73,8 +73,8 @@
             this.btnDoanhThu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDoanhThu.FlatAppearance.BorderSize = 0;
             this.btnDoanhThu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDoanhThu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDoanhThu.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnDoanhThu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDoanhThu.ForeColor = System.Drawing.Color.White;
             this.btnDoanhThu.Image = ((System.Drawing.Image)(resources.GetObject("btnDoanhThu.Image")));
             this.btnDoanhThu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDoanhThu.Location = new System.Drawing.Point(159, 3);
