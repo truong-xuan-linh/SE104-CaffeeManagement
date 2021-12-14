@@ -35,6 +35,9 @@
   <PropertyGroup>
     <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="DAL_BLL">
       <HintPath>..\DAL_BLL\bin\Release\DAL_BLL.dll</HintPath>
@@ -124,6 +127,7 @@
   <ItemGroup>
     <Content Include="icon.ico" />
     <Content Include="icon2.ico" />
+    <Content Include="icon22.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
