@@ -18,5 +18,5 @@
 | 2      | 19522389      | Nguyễn Minh Trí     |19522389@gm.uit.edu.vn   |
 | 3      | 19522227      | Huỳnh Đỗ Tấn Thành    |19522227@gm.uit.edu.vn   |
 | 4      | 19521654      | Hồ Trương Kha     |19521652@gm.uit.edu.vn   |
-| 5      | 19521744      | Võ Tá Lâm    |195211744@gm.uit.edu.vn   |
+| 5      | 19521744      | Võ Tá Lâm    |19521744@gm.uit.edu.vn   |
 | 6      | 19522526      | Phạm Quang Vinh     |19522526@gm.uit.edu.vn   |
