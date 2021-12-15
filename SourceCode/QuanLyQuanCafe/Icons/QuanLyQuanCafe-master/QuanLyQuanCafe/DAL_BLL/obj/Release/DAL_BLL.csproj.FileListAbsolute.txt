@@ -1,0 +1,12 @@
+D:\ThucHanh\PhatTrienPhanMem\QuanLyQuanCafe\DAL_BLL\bin\Release\DAL_BLL.dll.config
+D:\ThucHanh\PhatTrienPhanMem\QuanLyQuanCafe\DAL_BLL\bin\Release\DAL_BLL.dll
+D:\ThucHanh\PhatTrienPhanMem\QuanLyQuanCafe\DAL_BLL\bin\Release\DAL_BLL.pdb
+D:\ThucHanh\PhatTrienPhanMem\QuanLyQuanCafe\DAL_BLL\obj\Release\DAL_BLL.csproj.CoreCompileInputs.cache
+D:\ThucHanh\PhatTrienPhanMem\QuanLyQuanCafe\DAL_BLL\obj\Release\DAL_BLL.dll
+D:\ThucHanh\PhatTrienPhanMem\QuanLyQuanCafe\DAL_BLL\obj\Release\DAL_BLL.pdb
+D:\ThucHanh\GitHub\.NET-Project\QuanLyQuanCafe\DAL_BLL\bin\Release\DAL_BLL.dll.config
+D:\ThucHanh\GitHub\.NET-Project\QuanLyQuanCafe\DAL_BLL\bin\Release\DAL_BLL.dll
+D:\ThucHanh\GitHub\.NET-Project\QuanLyQuanCafe\DAL_BLL\bin\Release\DAL_BLL.pdb
+D:\ThucHanh\GitHub\.NET-Project\QuanLyQuanCafe\DAL_BLL\obj\Release\DAL_BLL.csproj.CoreCompileInputs.cache
+D:\ThucHanh\GitHub\.NET-Project\QuanLyQuanCafe\DAL_BLL\obj\Release\DAL_BLL.dll
+D:\ThucHanh\GitHub\.NET-Project\QuanLyQuanCafe\DAL_BLL\obj\Release\DAL_BLL.pdb
